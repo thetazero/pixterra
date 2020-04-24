@@ -9,7 +9,7 @@ func stdWindow() *pixelgl.Window {
 	cfg := pixelgl.WindowConfig{
 		Title:  "PixTerra",
 		Bounds: pixel.R(0, 0, 1024, 768),
-		// VSync:  true,
+		VSync:  true,
 	}
 	win, err := pixelgl.NewWindow(cfg)
 	if err != nil {
